@@ -12,12 +12,12 @@
 
 ***
 ## 회의록
-주제 확정, 0602까지 javascript 학습 및 zoom 회의 _ 0528
+주제 확정, 0602까지 javascript 학습 및 zoom 회의 _ 0528            
 질문 구상, rule 업데이트, 프로젝트 디테일 _ 0603  
 
 ***
 ## 일정
-0602 _ javascript 학습 및 zoom 회의
+0602 _ javascript 학습 및 zoom 회의          
 0605 _ 각자 페이지 html 파일 공유
 ***
 ## 조 홈페이지
