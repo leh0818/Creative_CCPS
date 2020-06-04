@@ -21,4 +21,4 @@
 0605 _ 각자 페이지 html 파일 공유
 ***
 ## 조 홈페이지
-[IT Team Homepage](https://leh0818.github.io/Project_CG/)
+[IT Team Homepage](https://leh0818.github.io/Creative_CCPS/)
