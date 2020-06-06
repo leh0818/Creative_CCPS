@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>당신의 성향에 맞는 호그와트 기숙사 유형은 ?</h1>
+
+	<h4>나는 다양한 분야를 접하는 것을 선호한다.</h4>
+		아니다<input type='radio' name='select1' value='아니다'/>
+       	약간아니다<input type='radio' name='select1' value='약간아니다'/>
+        보통이다<input type='radio' name='select1' value='보통이다'/>
+        약간그렇다<input type='radio' name='select1' value='약간그렇다'/>
+        그렇다<input type='radio' name='select1' value='그렇다'/>
+
+	<h4>나는 나서서 결정하기를 좋다한다.</h4>
+		아니다<input type='radio' name='select2' value='아니다'/>
+       	약간아니다<input type='radio' name='select2' value='약간아니다'/>
+        보통이다<input type='radio' name='select2' value='보통이다'/>
+        약간그렇다<input type='radio' name='select2' value='약간그렇다'/>
+        그렇다<input type='radio' name='select2' value='그렇다'/>
+
+
+	<h4>잔머리가 좋다는 말을 자주 듣는다.</h4>
+		아니다<input type='radio' name='select3'value='아니다'/>
+       	약간아니다<input type='radio' name='select3' value='약간아니다'/>
+        보통이다<input type='radio' name='select3' value='보통이다'/>
+        약간그렇다<input type='radio' name='select3' value='약간그렇다'/>
+        그렇다<input type='radio' name='select3' value='그렇다'/>
+
+
+	<h4>논쟁에서 타인의 감정보다 자신의 이익이 우선이다.</h4>
+		아니다<input type='radio' name='select4' value='아니다'/>
+       	약간아니다<input type='radio' name='select4' value='약간아니다'/>
+        보통이다<input type='radio' name='select4' value='보통이다'/>
+        약간그렇다<input type='radio' name='select4' value='약간그렇다'/>
+        그렇다<input type='radio' name='select4' value='그렇다'/>
+
+
+	<h4>보통 대화를 먼저 시작한다.</h4>
+		아니다<input type='radio' name='select5' value='아니다'/>
+       	약간아니다<input type='radio' name='select5' value='약간아니다'/>
+        보통이다<input type='radio' name='select5' value='보통이다'/>
+        약간그렇다<input type='radio' name='select5' value='약간그렇다'/>
+        그렇다<input type='radio' name='select5' value='그렇다'/>
+</body>
+</html>
