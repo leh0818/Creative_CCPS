@@ -4,15 +4,73 @@ body{
 
 }
 
+#result {
+  text-align: center;
+}
 
-div.main {
+.main {
+  overflow-x: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%; height: 400px;
-  border: 1px solid; padding: 50px;
-  color: white;
+  width: 70%; height: 550px;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+}
+
+
+.love {
+  overflow: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: 170px;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+}
+
+.mbti {
+  overflow: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: 250px;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+}
+
+.member {
+  overflow: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: 120px;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+}
+
+#gryffindor {
+  background-color: #800000;
+  color: #ffd700;
+}
+
+#slytherin {
+  background-color: #004d1a;
+  color: #f0f0f0;
+}
+
+#hufflepuff {
+  background-color: #e6e600;
+  color: #000000;
+}
+
+#ravenclaw {
+  background-color: #000080;
+  color: #d5cf81;
 }
 
 button{
@@ -22,10 +80,13 @@ button{
   boder: 1px solid;
 }
 
-#img1 {
+img {
   float: left;
+  width: 400px;
+  height: 400px;
 }
 
+/*버튼*/
 #return {
   position: absolute;
   left: 150px; bottom: auto;
