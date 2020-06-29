@@ -4,13 +4,13 @@ body{
 
 }
 
+/*결과 알려주는 글씨*/
 #result {
   text-align: center;
 }
 
 .main {
   overflow-x: auto;
-  margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -26,7 +26,7 @@ body{
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%; height: 170px;
+  width: 70%; height: 180px;
   border: 0px solid; padding: 40px;
   border-radius: 30px;
 }
@@ -42,6 +42,17 @@ body{
   border-radius: 30px;
 }
 
+.information {
+  overflow: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: 750px;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+}
+
 .member {
   overflow: auto;
   margin-top: auto;
@@ -53,6 +64,7 @@ body{
   border-radius: 30px;
 }
 
+/*기숙사별 결과 바탕색 & 글자색*/
 #gryffindor {
   background-color: #800000;
   color: #ffd700;
@@ -73,6 +85,30 @@ body{
   color: #d5cf81;
 }
 
+/*맨위의 harrypotter로고*/
+#logopicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+/*기숙사 로고*/
+#picture_homelogo {
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+/*기숙사 내부*/
+#picture_home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/*버튼*/
 button{
   border-radius: 10px;
   background-color: #e6e6e6;
@@ -80,13 +116,6 @@ button{
   boder: 1px solid;
 }
 
-img {
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-
-/*버튼*/
 #return {
   position: absolute;
   left: 150px; bottom: auto;
