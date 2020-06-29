@@ -1,54 +1,72 @@
 /*바탕 이미지*/
 body{
+	background-image: url(abcd.png);
+	background-repeat: no-repeat;
+	background-position: 680px 2400px;
+	background-size: 400px;
 	font-family: serif;
-	color: white;
-	background-image: url(http://cafefiles.naver.net/20110121_121/soluteone_1295618483147gutLy_jpg/hogwartsmatte1c2_%282%29_soluteone.jpg);
-	text-align: center;	
+	font-size: 19px;
+	line-height: 25px;	/*행간*/
+	background-color: #333333;	/*배경 색*/
+	color: white;	/*글씨 색*/
+	text-indent: 15em;	/*들여쓰기*/
 }
-/*표 꾸미기*/
-table{
-	/*표 상단 테두리*/
-	border-top: 1px solid #444444;
-	/* 크기 고정*/
-	width: 80%;
-	/*표 테두리 얇게*/
-	border-collapse: collapse;
-	/* 표 가운데 정렬*/
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-/*표 가로줄 생성*/
-th,td{
-	border-bottom: 1px solid #444444;
-}
-
 /*이전페이지 이동 버튼*/
 #lastbutton{
-	width: 20%;
-	padding: 5px;
-	position: absolute; left: 110px; bottom: 150px;
-	border-radius: 10px;
-	
+	width: 13%;
+	padding: 10px;
+	font-size: 15px;
+	position: absolute; left: 150px; bottom: -2000px;
+	border-radius: 10px;	
 }
 /*다음 페이지 이동 버튼*/
 #nextbutton{
-	width: 20%;
-	padding: 5px;
-	position: absolute; right: 110px; bottom: 150px;
+	width: 13%;
+	padding: 10px;
+	font-size: 15px;
+	position: absolute; right: 150px; bottom: -2000px;
+	border-radius: 10px;	
+}
+
+#title{	/*haryr pother 디자인*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height:300px;
+}
+/*#lamp{
+	position: absolute; top: 0px; right: 0px;
+	opacity: 0.5;
+}*/
+
+#logo{
+	width: 350px;
+	position: absolute; left: 10px; top: 0px;
+	opacity: 0.3;
+}
+#logo2{
+	width: 350px;
+	position: absolute; right: 10px; top: 0px;
+	opacity: 0.3;
+}
+/*#abcd{
+	background-attachment: fixed;
+	position: absolute; right: 200px; top: 550px; left: auto;
+	opacity: 0.3;
+}*/
+/*#box{
+
+	background-color: white;
+	color: black;
+}
+
+.box{
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 2300px;
+	border: 0px solid padding: 40px;
 	border-radius: 10px;
-	cursor: pointer;
-}
-/*질문 정렬*/
-.Question{
-	text-align: left;
-}
-
-h1{
-	font-family: "Eater", cursive;
-}
-
-
-
-
+}*/
