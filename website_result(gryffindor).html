@@ -6,20 +6,23 @@
   <link rel = "stylesheet" type = "text/css" href = "css/resultstyle.css">
 </head>
 <body>
+  <img src="해리포터로고.PNG" alt="해리포터로고" id="logopicture" />
+  <img src="로고.PNG" alt="로고" id="logo1" />
+  <img src="로고.PNG" alt="로고2" id="logo2" />
 
   <div class="main" id = "gryffindor">
     <h2 id="result"> 당신의 결과는 </h2>
     <h1 id="result"> 그리핀도르 </h1>
-    <img src= "그리핀도르.PNG" alt = "그리핀도르" id = "gryffin" />
+    <img src= "그리핀도르.PNG" alt = "그리핀도르" id = "picture_homelogo" />
 
     <p>당신은 적극적인 사람입니다. 다양한 방면에서 두려움을 이겨내고 당당히 맞서는 사람입니다.
-    당신은 지인이 어려움에 처했을때, 적극적으로 나서서 이를 도와줄 수 있는 용기있는 사람이네요.
+    당신은 지인이 어려움에 처했을때, 나서서 이를 도와줄 수 있는 용기있는 사람이네요.
     또한  어려움을 이겨낼 수 있는 환경을 스스로 만들어 가는 사람입니다.</p>
 
     <p>당신은 주변세계와 상호작용을 함으로써 에너지를 얻고, 새로운 가능성에 늘 들떠있습니다.
     가끔은 즉흥적인 것을 좋아하고 새로운 것에 도전하는 사람 입니다.</p>
 
-    <p>당신은 외향적인 사람입니다. 즐거움을 추구하며 팀내에서 분위기 메이커를 담당하고 있네요.
+    <p>당신은 외향적인 사람입니다. 즐거움을 추구하며 팀 내에서 분위기 메이커를 담당하고 있네요.
     하지만 가끔은 혼자만의 시간이 많이 필요합니다.
     개인의 영역을 중요하게 생각하고, 나만 아는 무언가를 가진 사람입니다.</p>
 
@@ -27,8 +30,8 @@
 
   <div class="love" id="gryffindor">
     <h2> 당신의 연애 스타일은?</h2>
-    <p>사랑을할때 주로 사랑을 고백하는 스타일 <br>
-      금사빠(금방 사랑에 빠지다)스타일이지만 빠르게 사랑을 정리할 수 있는 성향 <br>
+    <p>사랑을 할 때 주로 사랑을 고백하는 스타일 <br>
+      금사빠(금방 사랑에 빠지다)스타일이지만 헤어지면 빠르게 사랑을 정리할 수 있는 성향 <br>
       자신의 맘에 들지 않는 상대가 고백하면 확실하게 선을 긋는 스타일</p>
   </div>
 
@@ -40,14 +43,42 @@
     <h3>ENFJ</h3>
   </div>
 
-  <div class="member" id="gryffindor">
-    <h2> 영화속 그리핀도르에사는 주인공은??</h2>
-    <h3>해리포터, 론 위즐리, 헤르미온느 그레인저</h3>
+  <div class="information" id="gryffindor">
+    <h2> 그리핀도르에 대해 좀 더 알아봅시다</h2>
+    <br>
+    <h3>창립자 : 고드릭 그리핀도르</h3>
+    <h3>창립 이념: "그 이름에 걸맞은 용기를 보여주는 아이들은 누구나 다 가르치도록 하세."</h3>
+    <h3>기숙사 대표 색 : 붉은색, 금색</h3>
+    <h3>기숙사 상징 동물 : 사자</h3>
+    <h3>기숙사 상징 원소 : 불</h3>
+
+    <img src="그리핀도르 기숙사.jpg" alt="그리핀도르 기숙사" id="picture_home">
+    <p align = center>기숙사 내부</p>
   </div>
 
-  <button type="button" id = "return" onclick = "alert('민주가 만든 페이지랑 연결하기')">다시 검사하기</button>
-  <button type="button" id = "출처" onclick="alert('출처는 아직 없어용!')">출처</button>
-  <button type="button" id = "share" onclick = "alert('자바스크립트로 짜야하는듯???')">공유하기</button>
+  <div class="member" id="gryffindor">
+    <h2> 영화 속 그리핀도르에 사는(살았던) 주인공은??</h2>
+    <div class="member_picture">
+      <img src="해리.PNG" alt="해리 사진" id="pic1">
+      <p align = center>해리 포터</p>
+    </div>
+    <div class="member_picture">
+      <img src="헤르미온느.PNG" alt="헤르미온느 사진" id="pic2">
+      <p align = center>헤르미온느 그레인저</p>
+    </div>
+    <div class="member_picture">
+      <img src="론.PNG" alt="론 사진" id="pic3">
+      <p align = center>론 위즐리</p>
+    </div>
+  </div>
+
+    <button type="button" id = "return" onclick = "alert('민주가 만든 페이지랑 연결하기')">다시 검사하기</button>
+    <!url 복사하는거>
+    <input id="myInput" value="url 주소" />
+    <button id = "share" onclick="copy_to_clipboard();">공유하기</button>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script type="text/javascript" src="copyLink.js"></script>
+    <button type="button" id = "출처" onclick="alert('출처는 아직 없어용!')">출처</button>
 
 </body>
 </html>
