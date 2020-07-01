@@ -1,7 +1,8 @@
 /*바탕 이미지*/
 body{
+  font-family: 'Nanum Myeongjo', serif;
 	text-align: center;
-	background: url(1234.jpg);
+	background: url("{{ url_for('static',filename=''1234.jpg'') }}");
 	background-position: center top;
 	background-repeat: no-repeat;
 	color: white;	
