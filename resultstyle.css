@@ -1,7 +1,9 @@
 body{
   /*바탕색*/
   background-color: #333333;
-
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 /*결과 알려주는 글씨*/
@@ -18,6 +20,7 @@ body{
   width: 70%; height: 550px;
   border: 0px solid; padding: 40px;
   border-radius: 30px;
+
 }
 
 
@@ -27,9 +30,10 @@ body{
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%; height: 180px;
+  width: 70%; height: 190px;
   border: 0px solid; padding: 40px;
   border-radius: 30px;
+
 }
 
 .mbti {
@@ -38,7 +42,7 @@ body{
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%; height: 250px;
+  width: 70%; height: 260px;
   border: 0px solid; padding: 40px;
   border-radius: 30px;
 }
@@ -49,7 +53,7 @@ body{
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%; height: 750px;
+  width: 70%; height: 770px;
   border: 0px solid; padding: 40px;
   border-radius: 30px;
 }
@@ -60,7 +64,7 @@ body{
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%; height: 550px;
+  width: 70%; height: 560px;
   border: 0px solid; padding: 40px;
   border-radius: 30px;
 }
@@ -155,30 +159,35 @@ button{
   background-color: #e6e6e6;
   color: black;
   boder: 1px solid;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #return {
   position: absolute;
   left: 150px; bottom: auto;
   width: 200px; height: 40px;
-}
-
-
-#myInput {
-  position: absolute;
-  right: 150px; bottom: auto;
-  width: 200px; height: 20px;
-}
-
-#share {
-  position: absolute;
-  right: 150px; bottom: auto;
-  width: 200px; height: 40px;
+  margin-bottom: auto;
 }
 
 #출처 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  right: 150px; bottom: auto;
   width: 200px; height: 40px;
+  margin-bottom: auto;
+}
+
+#myInput {
+  border-radius: 5px;
+  position: absolute;
+  right: 220px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+#share {
+  border-radius: 5px;
+  position: absolute;
+  right: 150px;
+  height: 27px;
+  margin-bottom: 20px;
 }
