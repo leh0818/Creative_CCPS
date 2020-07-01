@@ -1,50 +1,20 @@
 /*바탕 이미지*/
 body{
-	background-image: url(abcd.png);
+	background-image: url("{{url_for('static',filename=''abcd.jpg'')}}");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: 650px 250px;
+	background-position: center center; 
 	background-size: 400px;
-	font-family: serif;
 	font-size: 19px;
 	line-height: 25px;	/*행간*/
 	background-color: #333333;	/*배경 색*/
 	color: white;	/*글씨 색*/
 	text-indent: 15em;	/*들여쓰기*/
 }
-/*이전페이지 이동 버튼*/
-#lastbutton{
-	font-family: serif;
-	transition-duration: 0.3s;
-	width: 13%;
-	font-size: 1.3vw;
-	padding: 8px;
-	border: none;
-	outline: none;
-	border-radius: 20px;
-	position: absolute; left: 150px; bottom: -4300px;
+main{
+	font-family: 'Nanum Myeongjo', serif;
 }
-
-#lastbutton:hover {
-  transform: scale(1.1);
-}
-/*다음 페이지 이동 버튼*/
-#nextbutton{
-	font-family: serif;
-	transition-duration: 0.3s;
-	width: 13%;
-	font-size: 1.3vw;
-	padding: 8px;
-	border: none;
-	outline: none;
-	border-radius: 20px;
-	position: absolute; right: 150px; bottom: -4300px;
-}
-
-#nextbutton:hover {
-  transform: scale(1.1);
-}
-/*haryr pother 디자인*/
+/*harry pother 디자인*/
 #title{	
 	display: block;
 	margin-left: auto;
@@ -63,6 +33,82 @@ body{
 	position: absolute; right: 10px; top: 0px;
 	opacity: 0.3;
 }
+/*이전페이지 버튼*/
+#lastbutton{
+    font-family: 'Nanum Myeongjo', serif;
+    background:#454545;
+    color: white;
+    border:none;
+    position: absolute; left: 150px; 
+    height: auto;
+    width: auto;
+    font-size:1.2em;
+    padding:0.3em;
+    transition:800ms ease all;  /*애니메이션 속도*/
+    outline:none;
+}
+#lastbutton:hover{
+    background: white;
+    color:#454545;
+}
+#lastbutton:before,#lastbutton:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px; /*줄 굵기*/
+    width:0;
+    background: #454545; /*변경 후 색깔*/
+    transition:400ms ease all;  /*애니메이션 속도*/
+}
+#lastbutton:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#lastbutton:hover:before,#lastbutton:hover:after{
+    width: 100%; /*줄 길이*/
+    transition:800ms ease all;
+}
 
+/*결과페이지 버튼*/
+#nextbutton{
+    font-family: 'Nanum Myeongjo', serif;
+    background:#454545;
+    color: white;
+    border:none;
+    position: absolute; right: 150px; 
+    height: auto;
+    width: auto;
+    font-size:1.2em;
+    padding:0.4em;
+    transition:800ms ease all;
+    outline:none;
+}
+#nextbutton:hover{
+    background: white;
+    color:#454545;
+}
+#nextbutton:before,#nextbutton:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #454545; /*변경 후 색깔*/
+    transition:400ms ease all;
+}
+#nextbutton:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#nextbutton:hover:before,#nextbutton:hover:after{
+    width: 100%; /*줄 길이*/
+    transition:800ms ease all;
+}
 
 
