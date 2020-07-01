@@ -2,20 +2,22 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title> 성향검사를 바탕으로 호그와트 기숙사 찾기 </title>
-  <link rel = "stylesheet" type = "text/css" href = "resultstyle.css">
+  <title>호그와트 기숙사 테스트</title>
+  <link rel = "stylesheet" type = "text/css" href = "{{url_for('static', filename='resultstyle.css')}}"
+>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <img src="해리포터로고.PNG" alt="해리포터로고" id="logopicture" />
-  <img src="로고.PNG" alt="로고" id="logo1" />
-  <img src="로고.PNG" alt="로고2" id="logo2" />
+  <img src="{{url_for('static', filename='해리포터로고.png')}}" alt="해리포터로고" id="logopicture" />
+  <img src="{{url_for('static', filename='로고.png')}}" alt="로고" id="logo1" />
+  <img src="{{url_for('static', filename='로고.png')}}" alt="로고2" id="logo2" />
 
   <div class="main" id="ravenclaw">
     <h2 id="result">당신의 결과는</h2>
     <h1 id="result">래번클로</h1>
 
-    <img src= "래번클로.PNG" alt = "래번클로" id = "picture_homelogo" />
+    <img src= "{{url_for('static', filename='래번클로.png')}}" alt = "래번클로" id = "picture_homelogo" />
 
     <p>당신은 현명한 사람입니다. 다방면에서 적당한 재능을 갖추고 있습니다.
       일하는 데에 있어 과정보다 결과를 중시하는 사람이며, 분석이나 추리와 같은 생각이 많아지는 주제를 좋아합니다.
@@ -55,29 +57,30 @@
     <h3>기숙사 상징 동물 : 독수리</h3>
     <h3>기숙사 상징 원소 : 공기</h3>
 
-    <img src="래번클로 기숙사.jpg" alt="래번클로 기숙사" id="picture_home">
+    <img src="{{url_for('static', filename=''래번클로 기숙사.jpg'')}}" alt="래번클로 기숙사" id="picture_home">
     <p align = center>기숙사 내부</p>
   </div>
 
   <div class="member" id="ravenclaw">
     <h2> 영화 속 래번클로에 사는(살았던) 주인공은??</h2>
       <div class="member_picture">
-        <img src="루나.PNG" alt="루나 사진" id="pic1">
+        <img src="{{url_for('static', filename='루나.png')}}" alt="루나 사진" id="pic1">
         <p align = center>루나 러브굿</p>
       </div>
       <div class="member_picture">
-        <img src="초챙.PNG" alt="초챙 사진" id="pic2">
+        <img src="{{url_for('static', filename='초챙.png')}}" alt="초챙 사진" id="pic2">
         <p align = center>초 챙</p>
       </div>
     </div>
   </div>
 
-  <button type="button" id = "return" onclick = "location.href = 'file:///C:/Users/%ED%98%84%EC%A7%80/Desktop/web/website_page01.html'">다시 검사하기</button>
-  <!url 복사하기>
+  <button type="button" id = "return"  onclick="location.href ='index.html'">다시 검사하기</button>
+  <button type="button" id = "출처" onclick = "location.href = 'https://www.pngguru.com/free-transparent-background-png-clipart-fkete '">사진 출처</button>
+  <br> <br><br>
+  <!url 복사하는거>
   <input id="myInput" value="url 주소" />
-  <button id = "share" onclick="copy_to_clipboard();">공유하기</button>
+  <button id = "share" onclick="copy_to_clipboard();">링크복사</button>
   <script type="text/javascript" src="javascript.js"></script>
   <script type="text/javascript" src="copyLink.js"></script>
-  <button type="button" id = "출처" onclick="alert('출처는 아직 없어용!')">출처</button>
 </body>
 </html>
