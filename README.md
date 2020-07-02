@@ -1,5 +1,6 @@
 # 💖콩콩프사💖
 ## 콩콩이 없는 콩콩프사조 🙀
+[the cutest car in the world](./img/소중한 유콩콩.jpg)
 성향 검사를 통해 자신에게 맞는 호그와트 기숙사를 알려주는 홈페이지입니다. 
 
 ## 조원 :heart_eyes_cat:
