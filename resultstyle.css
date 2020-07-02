@@ -153,27 +153,82 @@ body{
   height: 400px;
 }
 
-/*버튼*/
-button{
-  border-radius: 10px;
-  background-color: #e6e6e6;
-  color: black;
-  boder: 1px solid;
-  font-family: 'Nanum Myeongjo', serif;
-}
-
+/*다시 검사하기 버튼*/
 #return {
-  position: absolute;
-  left: 150px; bottom: auto;
-  width: 200px; height: 40px;
-  margin-bottom: auto;
+  background:#454545;
+  color: white;
+  border:none;
+  position: absolute; left: 150px;
+  height: auto;
+  width: auto;
+  font-size:1.1em;
+  padding:0.4em;
+  transition:800ms ease all;
+  outline:none;
 }
 
+#return:hover{
+    background: white;
+    color:#454545;
+}
+#return:before,#return:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #454545; /*변경 후 색깔*/
+    transition:400ms ease all;
+}
+#return:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#return:hover:before,#return:hover:after{
+    width: 100%; /*줄 길이*/
+    transition:800ms ease all;
+}
+
+/*출처 버튼*/
 #출처 {
-  position: absolute;
-  right: 150px; bottom: auto;
-  width: 200px; height: 40px;
-  margin-bottom: auto;
+  background:#454545;
+  color: white;
+  border:none;
+  position: absolute; right: 150px;
+  height: auto;
+  width: auto;
+  font-size:1.1em;
+  padding:0.4em;
+  transition:800ms ease all;
+  outline:none;
+}
+
+#출처:hover{
+    background: white;
+    color:#454545;
+}
+#출처:before,#출처:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #454545; /*변경 후 색깔*/
+    transition:400ms ease all;
+}
+#출처:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#출처:hover:before,#출처:hover:after{
+    width: 100%; /*줄 길이*/
+    transition:800ms ease all;
 }
 
 #myInput {
