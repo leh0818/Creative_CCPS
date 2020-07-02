@@ -1,9 +1,9 @@
 /*바탕 이미지*/
 body{
-	background-image: url("{{url_for('static',filename=''abcd.jpg'')}}");
+	background-image: url("abcd.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center center; 
+	background-position: center center;
 	background-size: 400px;
 	font-size: 19px;
 	line-height: 25px;	/*행간*/
@@ -15,7 +15,7 @@ main{
 	font-family: 'Nanum Myeongjo', serif;
 }
 /*harry pother 디자인*/
-#title{	
+#title{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -35,14 +35,14 @@ main{
 }
 /*이전페이지 버튼*/
 #lastbutton{
-    font-family: 'Nanum Myeongjo', serif;
+
     background:#454545;
     color: white;
     border:none;
-    position: absolute; left: 150px; 
+    position: absolute; left: 150px;
     height: auto;
     width: auto;
-    font-size:1.2em;
+    font-size:1.1em;
     padding:0.3em;
     transition:800ms ease all;  /*애니메이션 속도*/
     outline:none;
@@ -74,14 +74,14 @@ main{
 
 /*결과페이지 버튼*/
 #nextbutton{
-    font-family: 'Nanum Myeongjo', serif;
+
     background:#454545;
     color: white;
     border:none;
-    position: absolute; right: 150px; 
+    position: absolute; right: 150px;
     height: auto;
     width: auto;
-    font-size:1.2em;
+    font-size:1.1em;
     padding:0.4em;
     transition:800ms ease all;
     outline:none;
@@ -110,5 +110,3 @@ main{
     width: 100%; /*줄 길이*/
     transition:800ms ease all;
 }
-
-
