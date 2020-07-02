@@ -9,7 +9,7 @@
      
 
 ## :house_with_garden: 당신과 어울리는 호그와트 기숙사는?
-
+[테스트 하러가기](https://harrypottertest-ccps.netlify.app/)
 
 ##  Homepage
 [IT Team Homepage](https://leh0818.github.io/Creative_CCPS/)
