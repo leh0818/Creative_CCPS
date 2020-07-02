@@ -41,7 +41,7 @@
 
 ## ❗ 모바일 환경에서는 가로 모드를 이용해 주세요 📱 ❗
 
-## Used Programming Language
+## Programming Language
 HTML5, CSS, JAVASCRIPT
 
 ## 팀 프로젝트 결과물 📝
