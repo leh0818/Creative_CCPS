@@ -66,6 +66,6 @@ HTML5, CSS, JAVASCRIPT
 회의록은 팀 홈페이지에 보기 쉽게 옮겨 놓았습니다.<br/>
 [CCPS Team Homepage](https://leh0818.github.io/)
 <br/>
-
+-------------------------------------------------------------------------------
 본 프로젝트는 전북대학교 2020년 1학기 **'창의적IT공학설계입문'** 수업의 팀 프로젝트입니다.
 ![jbnu](https://www.conteenew.com/data/file/artwork/thumb-2039099608_8DHM5sLO_e3043278c3c56d4c858c18756242af4cc351dbe1_600x152.png)
