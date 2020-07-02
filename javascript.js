@@ -126,16 +126,16 @@ function findUserDom() {
  }*/
  if (result == "griffindor") {
   location.href =
-   "file:///C:/Users/Eunho/Documents/2-1/%EC%BD%A9%EC%BD%A9%ED%94%84%EC%82%AC/result_griffindor.html";
+   "result_griffindor.html";
  } else if (result == "slytherin") {
   location.href =
-   "file:///C:/Users/Eunho/Documents/2-1/%EC%BD%A9%EC%BD%A9%ED%94%84%EC%82%AC/result_slytherin.html";
+   "result_slytherin.html";
  } else if (result == "hufflepuff") {
   location.href =
-   "file:///C:/Users/Eunho/Documents/2-1/%EC%BD%A9%EC%BD%A9%ED%94%84%EC%82%AC/result_hufflepuff.html";
+   "result_hufflepuff.html";
  } else if (result == "ravenclaw") {
   location.href =
-   "file:///C:/Users/Eunho/Documents/2-1/%EC%BD%A9%EC%BD%A9%ED%94%84%EC%82%AC/result_ravenclaw.html";
+   "result_ravenclaw.html";
  }
 }
 
