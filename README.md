@@ -29,8 +29,8 @@
 3. 결과를 읽고 자신과 맞는지 공감하며 즐긴다.
 4. 링크 복사 기능을 통해 친구들과 공유한다.
 
-## 저희 프로그램은 chrome, google 접속을 권장합니다 ❗️️ 
-구글 폰트를 사용하였기 때문에 편하게 설문에 임해주시기 위해서 **'chrome'**, **'google'** 환경과 컴퓨터를 준비해 주세요.
+## 저희 프로그램은 chrome 접속을 권장합니다 ❗️️ 
+구글 폰트를 사용하였기 때문에 편하게 설문에 임해주시기 위해서 **'chrome'** 환경과 컴퓨터를 준비해 주세요.
 
 ## Requirements 
 HTML5, CSS, JAVASCRIPT
@@ -40,7 +40,7 @@ HTML5, CSS, JAVASCRIPT
 :house_with_garden:
 [Harrypotter_House_test](https://harrypottertest-ccps.netlify.app/)
 
-## :house: Team_Homepage
+
 ### 회의록 작성 (이은호->김민주->김현지 순서)
      예시)
      0602회의록
@@ -49,11 +49,10 @@ HTML5, CSS, JAVASCRIPT
      -다음 회의 내용
       ...
      -다음 회의 날짜
-<br/>
+
+⚠️ 회의록은 회의 당일 저녁(~23:55)까지 WIKI나 업로드 하기
+
+## :house: Team_Homepage
+## 회의록은 팀 홈페이지에 보기 쉽게 옮겨놓았습니다.
 [CCPS Team Homepage](https://leh0818.github.io/Creative_CCPS/)
-
-⚠️ 회의록은 회의 당일 저녁(~23:55)까지 WIKI나, 홈페이지에 업로드 하기
-
-
-
 
