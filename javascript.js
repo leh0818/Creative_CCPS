@@ -5,35 +5,43 @@ let griffindor = 0,
  hufflepuff = 0,
  ravenclaw = 0;
 let griffin, sly, huffle, raven;
+/*let checkArray = new Array(); //선택 안 한 문항 체크할 배열
+for (let i = 1; i < 21; i++) {
+ checkArray[i] = false;
+}*/
 
-function insertCheckedgriffin() {
+function insertCheckedgriffin(num) {
  for (let i = 0; i < griffin.length; i++) {
   if (griffin[i].checked) {
    griffindor += Number(griffin[i].value);
+   //checkArray[num] = true;
   }
  }
 }
 
-function insertCheckedsly() {
+function insertCheckedsly(num) {
  for (let i = 0; i < sly.length; i++) {
   if (sly[i].checked) {
    slytherin += Number(sly[i].value);
+   // checkArray[num] = true;
   }
  }
 }
 
-function insertCheckedhuffle() {
+function insertCheckedhuffle(num) {
  for (let i = 0; i < huffle.length; i++) {
   if (huffle[i].checked) {
    hufflepuff += Number(huffle[i].value);
+   // checkArray[num] = true;
   }
  }
 }
 
-function insertCheckedraven() {
+function insertCheckedraven(num) {
  for (let i = 0; i < raven.length; i++) {
   if (raven[i].checked) {
    ravenclaw += Number(raven[i].value);
+   // checkArray[num] = true;
   }
  }
 }
@@ -55,7 +63,7 @@ function max(slytherin, griffindor, hufflepuff, ravenclaw) {
  }
  if (ravenclaw > max) {
   max = ravenclaw;
-  maxDom = "ravenglaw";
+  maxDom = "ravenclaw";
  }
  return maxDom;
 }
@@ -106,13 +114,31 @@ function findUserDom() {
  insertCheckedraven();
 
  let result = max(slytherin, griffindor, hufflepuff, ravenclaw);
+ /*let notSelected = new Array();
+ let index = 0;
+ for (let i = 1; i <= 20; i++) {
+  if (checkArray[i] == false) {
+   alert(checkArray[i]);
+   notSelected[index] = i;
+   index++;
+   alert(index);
+  }
+ }*/
  if (result == "griffindor") {
-  location.href = "griffindor 주소 쓰기";
+  location.href =
+   "file:///C:/Users/Eunho/Documents/2-1/%EC%BD%A9%EC%BD%A9%ED%94%84%EC%82%AC/result_griffindor.html";
  } else if (result == "slytherin") {
-  location.href = "slytherin 주소 쓰기";
+  location.href =
+   "file:///C:/Users/Eunho/Documents/2-1/%EC%BD%A9%EC%BD%A9%ED%94%84%EC%82%AC/result_slytherin.html";
  } else if (result == "hufflepuff") {
-  location.href = "hufflepuff 주소 쓰기";
+  location.href =
+   "file:///C:/Users/Eunho/Documents/2-1/%EC%BD%A9%EC%BD%A9%ED%94%84%EC%82%AC/result_hufflepuff.html";
  } else if (result == "ravenclaw") {
-  location.href = "ravenclaw 주소 쓰기";
+  location.href =
+   "file:///C:/Users/Eunho/Documents/2-1/%EC%BD%A9%EC%BD%A9%ED%94%84%EC%82%AC/result_ravenclaw.html";
  }
 }
+
+document.getElementById("nextbutton").onclick = function () {
+ findUserDom();
+};
