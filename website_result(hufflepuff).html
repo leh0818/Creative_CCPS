@@ -3,78 +3,82 @@
 <head>
   <meta charset="utf-8" />
   <title>호그와트 기숙사 테스트</title>
-  <link rel = "stylesheet" type = "text/css" href = "{{url_for('static', filename='resultstyle.css')}}">
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" type = "text/css" href = "css/resultstyle.css">
 </head>
 <body>
-  <img src="{{url_for('static', filename='해리포터로고.png')}}" alt="해리포터로고" id="logopicture" />
-  <img src="{{url_for('static', filename='로고.png')}}" alt="로고" id="logo1" />
-  <img src="{{url_for('static', filename='로고.png')}}" alt="로고2" id="logo2" />
+  <img src="해리포터로고.PNG" alt="해리포터로고" id="logopicture" />
+  <img src="로고.PNG" alt="로고" id="logo1" />
+  <img src="로고.PNG" alt="로고2" id="logo2" />
 
-  <div class="main" id="hufflepuff">
-    <h2 id="result">당신의 결과는</h2>
-    <h1 id="result">후플푸프</h1>
-    <img src= "{{url_for('static', filename='후플푸프.png')}}" alt = "후플푸프" id = "picture_homelogo" />
-    <p>당신은 성실한 사람입니다. 어려운 숙제가 주어졌을 때, 일을 실패하지 않기위해 노력하는 성향입니다.
-      주어진 일을 효율적으로 처리할 수 있는 능력이 있습니다. 목표가 생기면 누구보다 저돌적으로 일을 성공해내는 타입입니다.
-      한번 받은 일은 끝까지 해야한다는 생각이 있습니다. 맡은 일은 혼자 해결하려고 하는 성향이 있습니다.</p>
+  <div class="main" id="slytherin">
+    <h2 id = "result"> 당신의 결과는 </h2>
+    <h1 id = "result"> 슬리데린 </h1>
+    <img src= "슬리데린.PNG" alt = "슬리데린" id = "picture_homelogo" />
+    <p>당신은 야망있는 사람입니다. 사실과 원리 원칙을 중요시하는 사람입니다.
+      혼자 있는 것을 좋아하며, 사회 활동을 싫어합니다.
+      하지만 사람들 중심에 서서 무리를 리더십있게 이끌어가는 성격으로, 당신을 따르는 사람이 많습니다.
+      자기애가 강하며 열등감을 느낀 적이 극히 드문 사람입니다.</p>
 
-    <p>다른 사람들과 노는 것을 좋아하지만, 금방 지치는 스타일입니다.
-      인간관계에 신경을 많이 쓰는 편이며, 주변 의견과 주변 분위기를 따라가는 경우가 많습니다.
-      다른 사람이 나를 어떻게 생각할지 고민을 많이 하는 성격이며, 가끔은 우울감을 가지고 있습니다.</p>
+    <p>피해 주는 것과 피해 받는 것을 싫어하고 자신 외의 사람들의 일에 관심을 갖지 않는 성격입니다.
+      자신의 이익을 위해서 살아가는 사람이며 다른 사람이 자신의 인생에 간섭하는 것을 싫어합니다.</p>
 
-    <p>또한 당신은 이런 성격 유형에 관심이 많으며 인터넷 커뮤니티 활동을 즐겨하는 사람입니다.
-      좋아하는 일은 거침없이 뛰어들지만, 반면 싫어하는 일은 거들떠도 보지 않는 사람입니다.</p>
+    <p>감정에 휘둘리는 것을 싫어하며, 친구의 고민상담에 종종 공감하지 못할 때가 있습니다.
+      동물을 사랑하며, 몇몇 자신의 물건에 집착하는 성향이 있습니다.</p>
+
   </div>
 
-  <div class="love" id="hufflepuff">
-    <h2> 당신의 연애 스타일은?</h2>
-    <p>보통 혼자 좋아하는 스타일<br>
-      온 몸으로 좋아함을 티내는 스타일 <br>
-      상대방도 나를 좋아한다고 느낄 때는 과감없이 표현하는 사람</p>
+  <div class="love" id="slytherin">
+    <h2> 당신의 연애 스타일</h2>
+    <p>좋아하는 감정을 들키고 싶지 않아 하며 보통 먼저 고백하지 않는 스타일<br>
+      좋아하는 사람이 생기면 상대가 날 좋아하게끔 노력하는 스타일 <br>
+      하지만 정말 좋아하면 마음을 조금씩 표현하며, 상대를 쟁취하고 싶어 하는 스타일</p>
   </div>
 
-  <div class="mbti" id="hufflepuff">
-    <h2> 후플푸프 기숙사에 해당하는 MBTI는?</h2>
-    <h3>INFP</h3>
-    <h3>ISFP</h3>
-    <h3>ESFJ</h3>
-    <h3>INFJ</h3>
+  <div class="mbti" id="slytherin">
+    <h2> 슬리데린 기숙사에 해당하는 MBTI</h2>
+    <h3>ENTJ</h3>
+    <h3>INTJ</h3>
+    <h3>ISTP</h3>
+    <h3>ESTJ</h3>
   </div>
 
-  <div class="information" id="hufflepuff">
-    <h2> 후플푸프에 대해 좀 더 알아봅시다</h2>
+  <div class="information" id="slytherin">
+    <h2> 슬리데린에 대해 좀 더 알아봅시다</h2>
     <br>
-    <h3>창립자 : 헬가 후플푸프</h3>
-    <h3>창립 이념 : "나는 그 아이들을 똑같이 가르칠걸세."</h3>
-    <h3>기숙사 대표 색 : 노란색과 검은색</h3>
-    <h3>기숙사 상징 동물 : 오소리</h3>
-    <h3>기숙사 상징 원소 : 흙</h3>
+    <h3>창립자 : 살라자르 슬리데린</h3>
+    <h3>창립 이념 : "가장 순수한 혈통을 지닌 아이들만 가르치도록 하세."</h3>
+    <h3>대표 색 : 녹색과 은색</h3>
+    <h3>상징 동물 : 뱀</h3>
+    <h3>상징 원소 : 물</h3>
 
-    <img src="{{url_for('static', filename=''후플푸프 기숙사.jpg'')}}" alt="후플푸프 기숙사" id="picture_home">
+    <img src="슬리데린 기숙사.jpg" alt="슬리데린 기숙사" id="picture_home">
     <p align = center>기숙사 내부</p>
   </div>
 
-  <div class="member" id="hufflepuff">
-    <h2> 영화 속 후플푸프에 사는(살았던) 주인공은??</h2>
+  <div class="member" id="slytherin">
+    <h2> 영화 속 슬리데린에 사는(살았던) 등장인물</h2>
     <div class="member_picture">
-      <img src="{{url_for('static', filename='세드릭.png')}}" alt="세드릭 사진" id="pic1">
-      <p align = center>세드릭 디고리</p>
+      <img src="말포이.PNG" alt="말포이 사진" id="pic1">
+      <p align = center>드레이코 말포이</p>
     </div>
     <div class="member_picture">
-      <img src="{{url_for('static', filename='뉴트.png')}}" alt="뉴트 사진" id="pic2">
-      <p align = center>뉴트 스캐맨더(신비한 동물 사전)</p>
+      <img src="스네이프.PNG" alt="스네이프 사진" id="snape">
+      <p align = center>세베루스 스네이프</p>
+    </div>
+    <div class="member_picture">
+      <img src="볼드모트.PNG" alt="볼드모트 사진" id="pic3">
+      <p align = center>볼드모트</p>
     </div>
   </div>
+  </div>
 
-  <button type="button" id = "return"  onclick="location.href ='index.html'">다시 검사하기</button>
+  <button type="button" id = "return" onclick = "location.href = 'index.html'">다시 검사하기</button>
   <button type="button" id = "출처" onclick="location.href = 'https://www.pngguru.com/free-transparent-background-png-clipart-fkete '">사진 출처</button>
   <br> <br><br>
   <!url 복사하는거>
-  <input id="myInput" value="url 주소" />
+  <input id="myInput" value="https://harrypottertest-ccps.netlify.app" />
   <button id = "share" onclick="copy_to_clipboard();">링크복사</button>
   <script type="text/javascript" src="javascript.js"></script>
   <script type="text/javascript" src="copyLink.js"></script>
 </body>
-
 </html>
