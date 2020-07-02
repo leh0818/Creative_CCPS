@@ -11,11 +11,11 @@
 |김민주|201912341| 의견조율자🖤 /  html, css로 첫 페이지, 검사 페이지 구축 및 디자인 |
 
 ## 호그와트 기숙사 테스트 :european_castle:
-### 성향검사 질문을 통해 호그와트 기숙사를 보여주는 테스트
+### 성향검사 질문을 통해 호그와트 기숙사를 보여주는 테스트 🧙‍♂️🧙‍♀️
 ### 해리포터 영화를 보지 않아도 누구나 즐길 수 있습니다 :heavy_exclamation_mark:
 
 ### 호그와트 기숙사별로 성향을 나눴습니다.
->그리핀도르(gryffindor)🦁 : 용기, 기사도
+>그리핀도르(gryffindor)🦁 : 용기, 대범함
 >
 >슬리데린(slytherin)🐍 : 야망, 교활함, 리더쉽
 >
@@ -41,7 +41,7 @@ HTML5, CSS, JAVASCRIPT
 [Harrypotter_House_test](https://harrypottertest-ccps.netlify.app/)
 
 
-### 회의록 작성 (이은호->김민주->김현지 순서)
+### 회의록 작성 (순서: 이은호->김민주->김현지)
      예시)
      0602회의록
      -회의 내용
@@ -50,9 +50,9 @@ HTML5, CSS, JAVASCRIPT
       ...
      -다음 회의 날짜
 
-⚠️ 회의록은 회의 당일 저녁(~23:55)까지 WIKI나 업로드 하기
+⚠️ 회의록은 회의 당일 저녁(~23:55)까지 WIKI에 업로드 하기
 
 ## :house: Team_Homepage
-## 회의록은 팀 홈페이지에 보기 쉽게 옮겨놓았습니다.
+## 회의록은 팀 홈페이지에 보기 쉽게 옮겨 놓았습니다.
 [CCPS Team Homepage](https://leh0818.github.io/Creative_CCPS/)
 
