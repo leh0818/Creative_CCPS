@@ -11,9 +11,5 @@
 ## :house_with_garden: 당신과 어울리는 호그와트 기숙사는?
 
 
-## 일정
-0602 _ javascript 학습 및 zoom 회의          
-0605 _ 각자 페이지 html 파일 공유
-***
-## 조 홈페이지
+##  Homepage
 [IT Team Homepage](https://leh0818.github.io/Creative_CCPS/)
