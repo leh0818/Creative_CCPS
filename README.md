@@ -2,7 +2,7 @@
 <img src="https://github.com/leh0818/Creative_CCPS/blob/master/img/%EC%86%8C%EC%A4%91%ED%95%9C%20%EC%9C%A0%EC%BD%A9%EC%BD%A9.jpg?raw=true" alt="drawing" width="300"/> 
  
 ## 콩콩이 없는 콩콩프사조 🙀          
-성향 검사를 통해 자신에게 맞는 호그와트 기숙사를 알려주는 홈페이지입니다. 
+성향 검사를 통해 자신에게 맞는 호그와트 기숙사를 알려주는 입니다. 
 
 ## 조원 :heart_eyes_cat:
 |이름|학번|역할|
