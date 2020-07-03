@@ -1,0 +1,112 @@
+/*바탕 이미지*/
+body{
+	background-image: url("abcd.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 400px;
+	font-size: 19px;
+	line-height: 25px;	/*행간*/
+	background-color: #333333;	/*배경 색*/
+	color: white;	/*글씨 색*/
+	text-indent: 15em;	/*들여쓰기*/
+}
+main{
+	font-family: 'Nanum Myeongjo', serif;
+}
+/*harry pother 디자인*/
+#title{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+}
+/*양쪽 로고*/
+#logo{
+	width: 350px;
+	position: absolute; left: 10px; top: 0px;
+	opacity: 0.3;
+}
+#logo2{
+	width: 350px;
+	position: absolute; right: 10px; top: 0px;
+	opacity: 0.3;
+}
+/*이전페이지 버튼*/
+#lastbutton{
+
+    background:#454545;
+    color: white;
+    border:none;
+    position: absolute; left: 150px;
+    height: auto;
+    width: auto;
+    font-size:1.1em;
+    padding:0.3em;
+    transition:800ms ease all;  /*애니메이션 속도*/
+    outline:none;
+}
+#lastbutton:hover{
+    background: white;
+    color:#454545;
+}
+#lastbutton:before,#lastbutton:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px; /*줄 굵기*/
+    width:0;
+    background: #454545; /*변경 후 색깔*/
+    transition:400ms ease all;  /*애니메이션 속도*/
+}
+#lastbutton:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#lastbutton:hover:before,#lastbutton:hover:after{
+    width: 100%; /*줄 길이*/
+    transition:800ms ease all;
+}
+
+/*결과페이지 버튼*/
+#nextbutton{
+
+    background:#454545;
+    color: white;
+    border:none;
+    position: absolute; right: 150px;
+    height: auto;
+    width: auto;
+    font-size:1.1em;
+    padding:0.4em;
+    transition:800ms ease all;
+    outline:none;
+}
+#nextbutton:hover{
+    background: white;
+    color:#454545;
+}
+#nextbutton:before,#nextbutton:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #454545; /*변경 후 색깔*/
+    transition:400ms ease all;
+}
+#nextbutton:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#nextbutton:hover:before,#nextbutton:hover:after{
+    width: 100%; /*줄 길이*/
+    transition:800ms ease all;
+}

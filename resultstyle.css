@@ -1,0 +1,248 @@
+body{
+  /*바탕색*/
+  background-color: #333333;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/*결과 알려주는 글씨*/
+#result {
+  text-align: center;
+}
+
+.main {
+  overflow-x: auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: auto;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+
+}
+
+
+.love {
+  overflow: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: auto;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+
+}
+
+.mbti {
+  overflow: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: auto;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+}
+
+.information {
+  overflow: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: auto;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+}
+
+.member {
+  overflow: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; height: auto;
+  border: 0px solid; padding: 40px;
+  border-radius: 30px;
+}
+
+/*기숙사별 결과 바탕색 & 글자색*/
+#gryffindor {
+  background-color: #800000;
+  color: #ffd700;
+}
+
+#slytherin {
+  background-color: #004d1a;
+  color: #f0f0f0;
+}
+
+#hufflepuff {
+  background-color: #ffd400;
+  color: #000000;
+}
+
+#ravenclaw {
+  background-color: #14145a;
+  color: #d5cf81;
+}
+
+/*맨위의 harrypotter로고*/
+#logopicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+/*맨위 양옆의 로고*/
+#logo1 {
+  width: 350px;
+  position: absolute; left: 10px; top: 0px;
+  opacity: 0.3;
+}
+#logo2 {
+  width: 350px;
+  position: absolute; right: 10px; top: 0px;
+  opacity: 0.3;
+}
+
+/*기숙사 로고*/
+#picture_homelogo {
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+/*기숙사 내부*/
+#picture_home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/*기숙사생*/
+.member_picture {
+  float: left;
+  padding: 10px;
+  width: 30%;
+}
+
+#pic1 {
+  width: 90%;
+  height: 400px;
+}
+
+#pic2 {
+  width: 90%;
+  height: 400px;
+}
+
+#pic3 {
+  width: 100%;
+  height: 400px;
+}
+
+/*스네이프 사진*/
+#snape {
+  width: 110%;
+  height: 400px;
+}
+
+/*다시 검사하기 버튼*/
+#return {
+  background:#454545;
+  color: white;
+  border:none;
+  position: absolute; left: 150px;
+  height: auto;
+  width: auto;
+  font-size:1.1em;
+  padding:0.4em;
+  transition:800ms ease all;
+  outline:none;
+}
+
+#return:hover{
+    background: white;
+    color:#454545;
+}
+#return:before,#return:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #454545; /*변경 후 색깔*/
+    transition:400ms ease all;
+}
+#return:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#return:hover:before,#return:hover:after{
+    width: 100%; /*줄 길이*/
+    transition:800ms ease all;
+}
+
+/*출처 버튼*/
+#출처 {
+  background:#454545;
+  color: white;
+  border:none;
+  position: absolute; right: 150px;
+  height: auto;
+  width: auto;
+  font-size:1.1em;
+  padding:0.4em;
+  transition:800ms ease all;
+  outline:none;
+}
+
+#출처:hover{
+    background: white;
+    color:#454545;
+}
+#출처:before,#출처:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #454545; /*변경 후 색깔*/
+    transition:400ms ease all;
+}
+#출처:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#출처:hover:before,#출처:hover:after{
+    width: 100%; /*줄 길이*/
+    transition:800ms ease all;
+}
+
+#myInput {
+  border-radius: 5px;
+  position: absolute;
+  right: 220px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+#share {
+  border-radius: 5px;
+  position: absolute;
+  right: 150px;
+  height: 27px;
+  margin-bottom: 20px;
+}
